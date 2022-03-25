@@ -15,7 +15,7 @@ enum Mode {
 
 class ViewController: UIViewController {
   @IBOutlet weak var mapView: MKMapView!
-  let mode: Mode = .implementAnnotationDelegate //.subclassAnnotationView
+  let mode: Mode = .implementAnnotationDelegate
   
   override func viewDidLoad() {
     super.viewDidLoad()
